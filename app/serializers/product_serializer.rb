@@ -6,5 +6,6 @@ class ProductSerializer
     s_p += '"price": "' + post.price + '",'
     s_p += '"inventory": "' + post.inventory + '",'
     s_p += '"description": "' + post.description + '",'
+    s_p += '}'
   end
 end
