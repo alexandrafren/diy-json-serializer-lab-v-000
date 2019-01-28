@@ -1,6 +1,9 @@
 class ProductsController < ApplicationController
+
   def show
+    @product = Product.find(parqms[:id])
   end
+
   def index
     @products = Product.all
   end
